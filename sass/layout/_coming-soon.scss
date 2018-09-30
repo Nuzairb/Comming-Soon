@@ -1,0 +1,81 @@
+.coming-soon {
+    width: 100vw;
+    height: 100vh;
+    background: url(../../img/Screenshot-Bg-Video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    &__rectangle {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: rgba(0, 0, 0, 0.4);
+        position: relative;
+    }
+    &__text-box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 30rem;
+        height: 30rem;
+    }
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        color: $color-black;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        font-size: 8rem;
+        background: $color-gorse;
+        margin: 1rem;
+    }
+    &__title--blue {
+        font-size: 6rem;
+        display: block;
+        background: $color-egyptian-blue;
+        color: $color-white;
+    }
+    &__info {
+        font-size: 2rem;
+        margin: 1rem;
+        line-height: 1.7;
+        color: $color-grey-light-1;
+    }
+    &__icons {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        &__1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 5rem;
+        }
+        &__2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 5rem;
+        }
+        &__3 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin: 5rem;
+        }
+        &__4 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 5rem;
+        }
+    }
+}

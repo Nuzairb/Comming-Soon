@@ -10,6 +10,7 @@
 @import 'base/reset';
 @import 'base/typography';
 // Layout
+@import 'layout/coming-soon';
 @import 'layout/navigation';
 @import 'layout/grid';
 @import 'layout/header';
@@ -17,6 +18,7 @@
 @import 'layout/sidebar';
 @import 'layout/forms';
 // Components
+@import 'components/countdown';
 @import 'components/buttons';
 @import 'components/carousel';
 @import 'components/cover';
